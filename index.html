@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Shrutika">
+    <meta name="description" content="This is E-Voting System">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Voting System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>E-Voting System</h1>
+
+        <div id="login-form">
+            <h2>Login</h2>
+            <input type="text" id="username" placeholder="Enter Username">
+            <button onclick="login()">Login</button>
+        </div>
+
+        <div id="voting-section" style="display: none;">
+            <h2>Vote for Your Candidate</h2>
+            <ul id="candidates-list"></ul>
+        </div>
+
+        <div id="results" style="display: none;">
+            <h2>Results</h2>
+            <ul id="results-list"></ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
